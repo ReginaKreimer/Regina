@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>cameras</name>
+    <Style id="icon-1535-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1535-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1535-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1535-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1535-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1535-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1535-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1535-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1535-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1535-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Mumbai</name>
+      <description><![CDATA[<img src="https://lh6.googleusercontent.com/rbBwYcK7j5EnnZEmbJS9bCBMuvjTPh7b_xIb45O1-4CtzgeQ-JiM5heS5H9pT4UBnLo4QUJndYgcPDxyjcqXpSm7-Ep-fbxAUEg9O8WLY7NlCEjIVrE7vYI4m9AthnGK" height="200" width="auto" /><br><br><br><br><a href="https://www.youtube.com/watch?v=cIlssGFDOns"><img src="http://img.youtube.com/vi/cIlssGFDOns/hqdefault.jpg" height="200" width="auto" /></a><br><br><a href="https://www.youtube.com/embed/cIlssGFDOns">https://www.youtube.com/embed/cIlssGFDOns</a>]]></description>
+      <styleUrl>#icon-1535-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh6.googleusercontent.com/rbBwYcK7j5EnnZEmbJS9bCBMuvjTPh7b_xIb45O1-4CtzgeQ-JiM5heS5H9pT4UBnLo4QUJndYgcPDxyjcqXpSm7-Ep-fbxAUEg9O8WLY7NlCEjIVrE7vYI4m9AthnGK https://www.youtube.com/embed/cIlssGFDOns</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          72.8776559,19.0759837,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Dombivli</name>
+      <styleUrl>#icon-1535-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          73.0939483,19.2094006,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mira Bhayandar</name>
+      <styleUrl>#icon-1535-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          72.8543897,19.2952325,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Thane</name>
+      <styleUrl>#icon-1535-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          72.9780897000001,19.2183307,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Navi Mumbai</name>
+      <description><![CDATA[<a href="https://www.youtube.com/watch?v=cIlssGFDOns"><img src="http://img.youtube.com/vi/cIlssGFDOns/hqdefault.jpg" height="200" width="auto" /></a><br><br><a href="https://www.youtube.com/embed/cIlssGFDOns">https://www.youtube.com/embed/cIlssGFDOns</a><br><br>]]></description>
+      <styleUrl>#icon-1535-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://www.youtube.com/embed/cIlssGFDOns</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.0296625,19.0330488,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pune</name>
+      <styleUrl>#icon-1535-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          73.8567436999999,18.5204303,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
